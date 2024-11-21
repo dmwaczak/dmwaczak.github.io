@@ -1,0 +1,146 @@
+﻿/* General Body Styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Header Styling */
+header {
+    text-align: center;
+    padding: 50px 10px;
+    background-color: #ffffff;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+    header img {
+        max-width: 150px;
+        border-radius: 50%;
+        margin-top: 20px;
+        border: 3px solid #4CAF50;
+    }
+
+    header h1 {
+        font-size: 2.5rem;
+        color: #4CAF50;
+        margin: 20px 0;
+    }
+
+    header p {
+        font-size: 1.2rem;
+        color: #555;
+    }
+
+/* Section Styling */
+section {
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #ffffff;
+    max-width: 800px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+    section h1 {
+        color: #4CAF50;
+        margin-bottom: 15px;
+        font-size: 2rem;
+        text-align: center;
+    }
+
+    section ul {
+        list-style-type: none;
+        padding: 0;
+    }
+
+        section ul li {
+            margin: 10px 0;
+            font-size: 1rem;
+            color: #333;
+        }
+
+    section a {
+        color: #258cfb;
+        text-decoration: none;
+        font-weight: bold;
+    }
+
+        section a:hover {
+            text-decoration: underline;
+            color: #4CAF50;
+        }
+
+/* Navigation Bar */
+.navbar {
+    list-style-type: none;
+    background-color: #4CAF50;
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+    .navbar li {
+        margin: 0 20px;
+    }
+
+    .navbar a {
+        text-decoration: none;
+        color: white;
+        font-weight: bold;
+        font-size: 1rem;
+    }
+
+        .navbar a:hover {
+            color: #ffd700;
+            text-decoration: underline;
+        }
+
+/* Footer Styling */
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    font-size: 0.9rem;
+    border-top: 3px solid #258cfb;
+}
+
+/* Buttons (Optional) */
+button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+    button:hover {
+        background-color: #258cfb;
+    }
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .navbar {
+        flex-direction: column;
+        align-items: center;
+    }
+
+        .navbar li {
+            margin: 10px 0;
+        }
+
+    section {
+        width: 90%;
+    }
+}
